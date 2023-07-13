@@ -16,7 +16,7 @@ services:
 
   mysql:
     platform: linux/amd64
-    image: mysql:latest
+    image: mysql:8.0
     container_name: mysql_app
     restart: "unless-stopped"
     ports:
