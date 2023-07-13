@@ -49,7 +49,7 @@ Update the values in the .env file according to your requirements.
 
 4. Start the Docker containers:
 ```shell
-docker-compose up -d
+$ docker-compose up -d
 ```
 This command will build the necessary images and start the containers in the background.
 
