@@ -32,12 +32,12 @@ To use this local PHP development environment, follow these steps:
 
 1. Clone this repository to your local machine:
 ```shell
-$ git clone <repository-url>
+$ git clone https://github.com/zalkarz/php-docker.git
 ```
 
 2. Navigate to the cloned repository:
 ```shell
-$ cd <repository-name>
+$ cd ~/php-docker
 ```
 
 3. Create a `.env` file and set the required environment variables. You can use the provided `.env.example` file as a template:
