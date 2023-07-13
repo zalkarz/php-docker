@@ -30,38 +30,38 @@ Before getting started, ensure that you have the following prerequisites install
 ## Getting Started
 To use this local PHP development environment, follow these steps:
 
-1. Clone this repository to your local machine:
+__1. Clone this repository to your local machine:__
 ```shell
 $ git clone https://github.com/zalkarz/php-docker.git
 ```
 
-2. Navigate to the cloned repository:
+__2. Navigate to the cloned repository:__
 ```shell
 $ cd ~/php-docker
 ```
 
-3. Create a `.env` file and set the required environment variables. You can use the provided `.env.example` file as a template:
+__3. Create a `.env` file and set the required environment variables. You can use the provided `.env.example` file as a template:__
 ```shell
 $ cp .env.example .env
 ```
 
 Update the values in the .env file according to your requirements.
 
-4. Start the Docker containers:
+__4. Start the Docker containers:__
 ```shell
 $ docker-compose up -d
 ```
 This command will build the necessary images and start the containers in the background.
 
-5. Access your PHP application in a web browser:
+__5. Access your PHP application in a web browser:__
 
 Open your preferred web browser and visit http://localhost:8081 to access the PHP application running inside the Nginx container.
 
-6. Develop your PHP application:
+__6. Develop your PHP application:__
 
 You can make changes to your PHP code locally in the `./public/index.php` directory. The changes will be reflected inside the Nginx container automatically.
 
-7. Stop the Docker containers:
+__7. Stop the Docker containers:__
 
 When you're finished working with the environment, you can stop the Docker containers by running:
 ```shell
