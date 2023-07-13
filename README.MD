@@ -55,7 +55,7 @@ This command will build the necessary images and start the containers in the bac
 
 5. Access your PHP application in a web browser:
 
-Open your preferred web browser and visit `http://localhost:8081` to access the PHP application running inside the Nginx container.
+Open your preferred web browser and visit http://localhost:8081 to access the PHP application running inside the Nginx container.
 
 6. Develop your PHP application:
 
@@ -105,4 +105,4 @@ The repository has the following directory structure:
 Feel free to customize the environment according to your needs. You can modify the Dockerfiles, Nginx configuration, or add additional services to the `docker-compose.yml` file.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the [MIT](https://github.com/zalkarz/php-docker/blob/main/LICENSE) License.
