@@ -67,7 +67,6 @@ When you're finished working with the environment, you can stop the Docker conta
 ```shell
 $ docker-compose down
 ```
-
 This command will stop and remove the containers, but it will preserve the data stored in the MySQL container.
 
 ## Directory Structure
